@@ -95,7 +95,7 @@ class DecisionTreeRegressor:
     def fit(self, X, Y):
         dataset = np.concatenate((X,Y), axis=1)
         self.root = self.build_tree(dataset)
-        print('finish')
+        
     
     def predict(self, X):
         ''' function to predict new dataset '''
