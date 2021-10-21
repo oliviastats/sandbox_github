@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# sources https://github.com/Suji04/ML_from_Scratch/blob/master/decision%20tree%20classification.ipynb
+# sources https://github.com/Suji04/ML_from_Scratch/blob/master/decision%20tree%20regression.ipynb
 
 class Node:
     def __init__(self,  feature_index=None, splitting_value=None, left=None, right=None, variance_reduction=None, value=None):
